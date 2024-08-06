@@ -1,0 +1,107 @@
+/* project section */
+
+
+
+.projects-skills {
+    max-width: 100%;
+    margin: 0;
+    padding-top: 4rem;
+    padding-bottom: 7rem;
+    background-color: #cce8fd80;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.projects-skills h1 {
+    font-size: 2rem;
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.projects-container {
+    display: flex;
+    gap: 4rem;
+    overflow-x: auto;
+    padding-bottom: 20px;
+    margin: 0 2rem;
+}
+
+.project-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    min-width: 25rem;
+    margin: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transfrom  0.3s ease;
+    transition-behavior: normal;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: transform;
+}
+
+.project-image {
+    background-color: #E5E5E5;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    color: #999;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.projects-skills h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.projects-skills p {
+    font-size: 0.9rem;
+    color: #000000;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.project-skills {
+    display: flex;
+    gap: 10px;
+}
+
+.skill {
+    font-size: 0.8rem;
+    padding: 3px 8px;
+    border-radius: 15px;
+}
+
+.react { color: #61DAFB; background-color: #E6F7FF; }
+.ejs { color: #ffa30f; background-color: #E6F7FF; }
+.nodejs { color: #68A063; background-color: #E6FFE6; }
+.mongodb { color: #4DB33D; background-color: #E6FFE6; }
+.express { color: #3776AB; background-color: #E6F0FF; }
+.material-ui { color: #FF6F00; background-color: #FFF0E6; }
+.flask { color: #000000; background-color: #F0F0F0; }
+.html { color: #61DAFB; background-color: #E6F7FF; }
+.js { color: #FFCA28; background-color: #FFF8E6; }
+.css { color: #E535AB; background-color: #FFE6F7; }
+
+
+.project-card:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+}

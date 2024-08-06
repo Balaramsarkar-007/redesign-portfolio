@@ -1,0 +1,107 @@
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 450px) {
+    /* General adjustments */
+    body {
+        font-size: 14px;
+    }
+
+    /* Header and navigation */
+    header {
+        padding: 0.5rem 3%;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    nav ul {
+        display: none; /* Hide desktop menu */
+    }
+
+    /* Add a mobile menu icon here if needed */
+
+    /* Hero section */
+    .hero {
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .highlight {
+        font-size: 2.7rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .hero-image {
+        width: 80%;
+        height: auto;
+        margin: 4rem 0;
+    }
+
+
+    /* Technical skills */
+    .skills-container {
+        flex-direction: column;
+        margin: 4px;
+    }
+
+    .skills-left, .skills-right {
+        width: 97%;
+        margin: 1rem 0;
+    }
+
+    /* Who am I section */
+    .who-i-am {
+        max-width: 90%;
+        padding: 1.5rem;
+    }
+
+    .who-i-am h1 {
+        font-size: 2rem;
+    }
+
+    .who-i-am-container {
+        flex-direction: column;
+    }
+
+    .who-i-let {
+        margin: 2rem 0;
+    }
+
+    .logo-item {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* Get in touch */
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 1.5rem;
+    }
+
+    input, textarea {
+        font-size: 0.9rem;
+        padding: 1rem;
+    }
+
+    /* Animations */
+    .animate-text {
+        transform: translateY(10px);
+    }
+}

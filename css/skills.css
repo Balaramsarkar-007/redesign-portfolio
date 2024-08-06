@@ -1,0 +1,65 @@
+/* technical skills */
+
+.technical-skills {
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.technical-skills h2 {
+    font-size: 1.5rem;
+    margin: 1.3rem;
+}
+
+.skills-left {
+    width: 47%;
+    margin: 1.3rem;
+}
+
+.skills-right {
+    width: 47%;
+    margin: 1.3rem;
+}
+
+.skill-bar {
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.skill-title {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.skill-name {
+    color: #000000;
+    font-weight: 600;
+}
+
+.progress-bar {
+    flex-grow: 1;
+    height: 8px;
+    background-color: #E0E0E0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+
+.progress {
+    height: 100%;
+    background: linear-gradient(90deg, #4C6FFF 0%, #6C8AFF 100%);
+    border-radius: 4px;
+    transition: width 1s ease-in-out;
+}
+
+.skill-percent {
+    width: 40px;
+    text-align: right;
+    font-size: 0.9rem;
+    color: #000000;
+}
